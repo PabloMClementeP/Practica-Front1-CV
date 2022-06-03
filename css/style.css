@@ -1,0 +1,115 @@
+/* *******/
+/* Body */
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+/* ***************/
+/* Common tags  */
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 15px;
+}
+
+nav{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin-right: 80px;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+td{
+    padding-bottom: 5px;
+}
+
+/* ***************/
+/* Customs class */
+
+.title{
+    text-align: center;
+}
+
+.picture{
+    margin: 0 auto;
+    display: block;
+    max-width: 180px;
+}
+
+.navegacion-Principal{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.d-personales{
+    margin-top: 50px;
+}
+
+.top-leters{
+    text-transform: uppercase;
+    background-color: #c4c4c4;
+    color: #005677;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+
+/* *******/
+/* header */
+header{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg");
+}
+
+
+/* *******/
+/* Main */
+main{
+    width: 95%;
+    margin: 0 auto;
+}
+
+table{
+    margin-left: 30px;
+}
+
+/* *******/
+/* Footer */
+
+footer{
+    background-color: #005677;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p{
+    text-transform: uppercase;
+}
+
+.icon-Footer{
+    height: 20px;
+    width: auto;
+    margin-right:10px;
+}
+
+.enlace-Footer{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+}
